@@ -1,0 +1,11 @@
+FROM centos:centos6
+MAINTAINER Genki Sugawara <sgwr_dts@yahoo.co.jp>
+
+USER root
+WORKDIR /
+
+RUN yum install -y rpmdevtools
+RUN rpmdev-setuptree
+
+RUN yum install -y make
+RUN yum install -y gcc

@@ -1,0 +1,6 @@
+/hello
+/pkg/
+/debian/hello.debhelper.log
+/debian/hello.substvars
+/debian/hello/
+/debian/files

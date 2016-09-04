@@ -1,0 +1,8 @@
+FROM ubuntu:trusty
+MAINTAINER Genki Sugawara <sgwr_dts@yahoo.co.jp>
+
+USER root
+WORKDIR /
+
+RUN apt-get update
+RUN apt-get install -y debhelper
