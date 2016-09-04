@@ -17,7 +17,6 @@ docker\:rpm:
 	mv ../hello.tar.gz /root/rpmbuild/SOURCES/
 	cp hello.spec /root/rpmbuild/SPECS/
 	rpmbuild -ba /root/rpmbuild/SPECS/hello.spec
-	mkdir -p pkg
 	mv /root/rpmbuild/RPMS/x86_64/hello-*.rpm pkg/
 	mv /root/rpmbuild/SRPMS/hello-*.src.rpm pkg/
 

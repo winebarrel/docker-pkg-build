@@ -1,5 +1,5 @@
 /hello
-/pkg/
+/pkg/hello*
 /debian/hello.debhelper.log
 /debian/hello.substvars
 /debian/hello/
