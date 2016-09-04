@@ -7,7 +7,7 @@ This is a example to make a rpm/deb in Docker.
 ### rpm
 
 ```sh
-make docker:build:rpm
+make docker:build:centos
 make rpm
 ```
 
