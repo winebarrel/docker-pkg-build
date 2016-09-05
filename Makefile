@@ -24,8 +24,8 @@ docker\:deb:
 	dpkg-buildpackage -us -uc
 	mv ../hello_* pkg/
 
-docker\:build\:centos:
+docker\:build\:centos: Dockerfile.centos6
 	docker build -f Dockerfile.centos6 -t docker-pkg-build-centos6 .
 
-docker\:build\:ubuntu:
+docker\:build\:ubuntu: Dockerfile.ubuntu-trusty
 	docker build -f Dockerfile.ubuntu-trusty -t docker-pkg-build-ubuntu-trusty .
